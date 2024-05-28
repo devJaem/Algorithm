@@ -3,7 +3,7 @@ function solution(elements) {
     const eLen = elements.length;
     
     
-    for(let i=0; i<eLen; i++){
+    for(let i=1; i<=eLen; i++){
         let sum = 0;
         for (let j=0; j<eLen; j++){
             if(j===0){
